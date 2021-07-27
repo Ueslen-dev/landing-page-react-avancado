@@ -37,6 +37,25 @@ const GET_LANDING_PAGE = gql`
           }
         }
       }
+      sectionConcepts {
+        title
+        concepts {
+          id
+          title
+        }
+      }
+      sectionModules {
+        title
+        modules {
+          id
+          title
+          description
+        }
+      }
+      sectionAgenda {
+        title
+        description
+      }
     }
   }
 `

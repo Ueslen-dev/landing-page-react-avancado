@@ -4,7 +4,7 @@ import * as S from './styles'
 
 type Props = {
   title: string
-  subTitle: string
+  subTitle?: string
   children: React.ReactNode
 }
 
